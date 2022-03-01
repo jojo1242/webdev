@@ -1,0 +1,44 @@
+html{
+    text-align: center; 
+    padding: 100px;
+    display: flex;
+    background: #1254ce; 
+}
+ body{
+   
+    background: #864dac; 
+    border: #321abc;/*what does border do?*/
+    text-align: center; 
+    padding: 100px;
+    display: flex;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .header {
+    padding: 100px; 
+    text-align: c; 
+    background: #1592b8; 
+    color: rgb(163, 13, 13); 
+    width: 1000px;/*if i put zero px it decreases but doesnt disapeear, why?*/
+display: flex;
+  }
+  /* how to attach image?*/
+  .header h1 {
+    font-size: 5rem;
+    text-align: center; 
+    padding: 1px;
+    width: 20rem;
+    background: #2dd89f; 
+    margin: auto;/*so margin is they key of it centering*/
+    /* when i change the width only the visual of it 
+    is changing. but when i inspect it it shows its still bigger*/
+   
+  }
+  
+
+  
